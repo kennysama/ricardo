@@ -1,0 +1,115 @@
+﻿    html
+        {
+            background-color :#D0E2B0;
+        }
+        body
+        {
+            font: 62.5% "Trebuchet MS" , sans-serif;
+            margin: 0px 50px 50px 50px;
+        }
+ .ui-tabs .ui-tabs-nav li 
+  {
+ 
+    width:24%;
+    text-align: center;
+}
+.ui-tabs .ui-tabs-nav li a {
+    display: inline-block;
+    float: none;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;   float: none; top: 0px; 
+    margin: 0em; 
+}
+
+
+        .demoHeaders
+        {
+            margin-top: 1em;
+        }
+        #dialog-link
+        {
+            padding: .4em 1em .4em 20px;
+            text-decoration: none;
+            position: relative;
+        }
+        #dialog-link span.ui-icon
+        {
+            margin: 0 5px 0 0;
+            position: absolute;
+            left: .2em;
+            top: 50%;
+            margin-top: -8px;
+        }
+        #icons
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #icons li
+        {
+            margin: 2px;
+            position: relative;
+            padding: 4px 0;
+            cursor: pointer;
+            float: left;
+            list-style: none;
+        }
+        #icons span.ui-icon
+        {
+            float: left;
+            margin: 0 4px;
+        }
+        .fakewindowcontain .ui-widget-overlay
+        {
+            position: absolute;
+        }
+        
+          #slideshow
+        {
+            position: relative;
+            height: 350px;
+        }
+        #slideshow IMG
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 8;
+            opacity: 0.0;
+        }
+        #slideshow IMG.active
+        {
+            z-index: 10;
+            opacity: 1.0;
+        }
+        #slideshow IMG.last-active
+        {
+            z-index: 9;
+        }
+        
+        
+#accordion .ui-accordion-header a {  
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);  
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);  
+    border-right: 1px solid rgba(0, 0, 0, .2);  
+    border-left: 1px solid rgba(0, 0, 0, .2);  
+    border-bottom: 1px solid rgba(0, 0, 0, .2);  
+    border-top: 1px solid rgba(250, 250, 250, .2);  
+}  
+
+.chrome
+{
+   background: -webkit-linear-gradient(left, rgba(0,16,252,1) 0%,rgba(208,226,176,1) 59%); 
+   
+     border-radius: 6px;
+    }
+.IE
+{ 
+  background-color:Blue
+}
+  
+        
+        
+        
+        
