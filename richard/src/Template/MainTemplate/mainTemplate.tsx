@@ -1,7 +1,5 @@
 import React from 'react'
 
-const MainTemplate: React.FC=()=>{
+const MainTemplate: React.FC = () => <div>fasasasasasasasasasasasasasasasasasasas</div>
 
-    return <div>s</div>
-}
 export default MainTemplate
