@@ -1,5 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const MainTemplate: React.FC = () => <div>fasasasasasasasasasasasasasasasasasasas</div>
+const MainTemplate: React.FC = () => (
+  <React.Fragment>
+    <div>Header</div>
+    <div />
+    <div>Body</div>
+    <div>Footer</div>
+  </React.Fragment>
+);
 
-export default MainTemplate
+export default MainTemplate;

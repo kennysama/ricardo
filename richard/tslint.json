@@ -1,78 +1,45 @@
 {
-  "extends": [
-    "tslint-react",
-    "tslint-config-prettier"
-  ],
+  "extends": ["tslint-react", "tslint-config-prettier"],
   "linterOptions": {
-    "exclude": [
-      "config/**/*.js",
-      "node_modules/**/*.ts"
-    ]
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
   },
   "rules": {
     "adjacent-overload-signatures": true,
     "align": {
-      "options": [
-        "parameters",
-        "statements"
-      ]
+      "options": ["parameters", "statements"]
     },
     "array-type": {
-      "options": [
-        "array-simple"
-      ]
+      "options": ["array-simple"]
     },
     "arrow-parens": false,
     "arrow-return-shorthand": true,
     "ban-types": {
       "options": [
-        [
-          "Object",
-          "Avoid using the `Object` type. Did you mean `object`?"
-        ],
+        ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
         [
           "Function",
           "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
         ],
-        [
-          "Boolean",
-          "Avoid using the `Boolean` type. Did you mean `boolean`?"
-        ],
-        [
-          "Number",
-          "Avoid using the `Number` type. Did you mean `number`?"
-        ],
-        [
-          "String",
-          "Avoid using the `String` type. Did you mean `string`?"
-        ],
-        [
-          "Symbol",
-          "Avoid using the `Symbol` type. Did you mean `symbol`?"
-        ]
+        ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+        ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+        ["String", "Avoid using the `String` type. Did you mean `string`?"],
+        ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
       ]
     },
     "callable-types": true,
     "class-name": true,
     "comment-format": {
-      "options": [
-        "check-space"
-      ]
+      "options": ["check-space"]
     },
     "curly": true,
     "cyclomatic-complexity": false,
     "eofline": false,
     "forin": true,
-    "import-spacing": true,
     "indent": {
-      "options": [
-        "spaces"
-      ]
+      "options": ["spaces"]
     },
     "interface-name": {
-      "options": [
-        "always-prefix"
-      ]
+      "options": ["always-prefix"]
     },
     "interface-over-type-literal": false,
     "jsdoc-format": true,
@@ -136,24 +103,15 @@
       ]
     },
     "one-variable-per-declaration": {
-      "options": [
-        "ignore-for-loop"
-      ]
+      "options": ["ignore-for-loop"]
     },
     "only-arrow-functions": {
-      "options": [
-        "allow-declarations",
-        "allow-named-functions"
-      ]
+      "options": ["allow-declarations", "allow-named-functions"]
     },
     "ordered-imports": false,
     "prefer-const": true,
     "prefer-for-of": true,
-    "quotemark": [
-      true,
-      "single",
-      "jsx-double"
-    ],
+    "quotemark": [true, "single", "jsx-double"],
     "radix": true,
     "space-before-function-paren": {
       "options": {
@@ -172,9 +130,7 @@
       }
     },
     "triple-equals": {
-      "options": [
-        "allow-null-check"
-      ]
+      "options": ["allow-null-check"]
     },
     "typedef": false,
     "typedef-whitespace": {
