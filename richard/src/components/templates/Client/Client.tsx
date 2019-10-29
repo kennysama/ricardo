@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MainTemplate: React.FC = () => (
+const ClientTemplate: React.FC = () => (
   <React.Fragment>
     <div>Header</div>
     <div />
@@ -9,4 +9,4 @@ const MainTemplate: React.FC = () => (
   </React.Fragment>
 );
 
-export default MainTemplate;
+export default ClientTemplate;
