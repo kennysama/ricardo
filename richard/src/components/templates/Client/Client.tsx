@@ -1,8 +1,11 @@
 import React from 'react';
+import ClientHeader from '../../organisms/client-header/ClientHeader';
 
 const ClientTemplate: React.FC = () => (
   <React.Fragment>
-    <div>Header</div>
+    <div>
+      <ClientHeader />
+    </div>
     <div />
     <div>Body</div>
     <div>Footer</div>
