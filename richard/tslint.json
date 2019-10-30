@@ -125,7 +125,12 @@
     "trailing-comma": {
       "options": {
         "esSpecCompliant": true,
-        "multiline": "always",
+        "multiline": {
+          "objects": "ignore",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
         "singleline": "never"
       }
     },
