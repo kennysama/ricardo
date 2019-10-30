@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 
 import { configureStore } from '../store';
 
-import './App.css';
+import styles from './App.module.scss';
 
 import ClientTemplate from './templates/Client/Client';
 import AdminTemplate from './templates/Admin/Admin';
@@ -13,7 +13,7 @@ const store = configureStore({});
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Provider store={store}>
         <Router>
           <Route path="/" component={ClientTemplate} />

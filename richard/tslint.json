@@ -5,6 +5,7 @@
   },
   "rules": {
     "adjacent-overload-signatures": true,
+
     "align": {
       "options": ["parameters", "statements"]
     },
@@ -167,6 +168,7 @@
         "allow-leading-underscore"
       ]
     },
+
     "whitespace": {
       "options": [
         "check-branch",
