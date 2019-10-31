@@ -6,12 +6,19 @@ import { ERouterPath } from '../../../types';
 const Home: React.FC = () => (
   <div className={styles.home}>
     <div className={styles.header}>
-      <div>options</div>
-
+      <div />
       <div className={styles.logo} />
     </div>
-    <h2>Title</h2>
-    <p>body</p>
+    <div className={styles.body}>
+      <h2>Dr Ricardo Lezcano</h2>
+      <p>Flebología / FleboEstetica</p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus enim
+        id ipsum autem culpa cum, itaque ab nisi ad expedita, nemo, pariatur
+        ipsam eos. Fuga cumque officia quis ut omnis.
+      </p>
+    </div>
   </div>
 );
 

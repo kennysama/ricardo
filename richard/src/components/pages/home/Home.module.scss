@@ -1,11 +1,22 @@
 .home {
-  color: blue;
   height: 100vh;
+  background: lightskyblue;
+
   .header {
     height: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: double white;
+    border-bottom-left-radius: 100%;
+
+    background: rgb(31, 137, 255);
+    background: linear-gradient(
+      7deg,
+      rgba(31, 137, 255, 0) 61%,
+      rgba(50, 147, 255, 0.6530987394957983) 100%
+    );
+
     .logo {
       background-position: right;
       background-image: url('/img/header.png');
@@ -14,5 +25,10 @@
       height: 100%;
       width: 50%;
     }
+  }
+  .body {
+    margin: 10%;
+    text-align: center;
+    color: white;
   }
 }
